@@ -6,10 +6,8 @@
 
 ##  *Посилання*
 
-* [Мій репозиторій](https://github.com/van6677/portfolio)
 * [Посилання на моє портфоліо](https://van6677.github.io/portfolio/)
-* [Основний репозиторій](https://github.com/PorokhovnichenkoIryna/kn-2026)
-* [Мій GitHub](https://github.com/van6677)
+* Перейти на наш загальний репозиторій можна через [мій GitHub](https://github.com/van6677)
 
 ---
 
