@@ -6,7 +6,7 @@
 
 ##  *Посилання*
 
-* [Посилання на моє портфоліо](https://van6677.github.io/portfolio/)
+* [Моє портфоліо](https://van6677.github.io/portfolio/)
 * Перейти на наш загальний репозиторій можна через [мій GitHub](https://github.com/van6677)
 
 ---
