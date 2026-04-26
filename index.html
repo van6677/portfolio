@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Портфоліо</title> 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    </head>
-    <body>
-	<body class="bg-dark text-white">
-        <h1>Студент</h1>
-        <div class="student">
-           іван 18 років
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      1 of 2
-    </div>
-    <div class="col">
-      2 of 2
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col">
-      2 of 3
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-</div>
-	 </div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Портфоліо</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        body {
+            background: linear-gradient(270deg, #FF0066, #FF6600, #FFCC00, #00CC66, #0099FF, #6600CC, #FF0099, #33CCFF, #99FF33, #FF3300, #9933FF, #00FFCC );
+            background-size: 1200% 1200%;
+            animation: gradientShift 20s ease infinite;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 17px;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 0%;
+            }
+
+            50% {
+                background-position: 100% 100%;
+            }
+
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        .student {
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        .col {
+            text-align: center;
+            max-width: 600px;
+            background: none;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 5px auto;
+            transition: all 0.3s ease;
+        }
+
+
+        h1 {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .profile {
+            border-radius: 50%;
+            border: 4px black;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <body class="text-white">
+        <div class="text-center mb-3">
+            <h1>Портфоліо</h1>
+            <img src="megafoto.jfif" alt="Student" class="profile" width="300" height="300">
+            <div class="col">
+
+                <h1>👤 Про себе</h1>
+                <p>Іван,18 років, п'ю живчик та граю в танки і доту</p>
+
+                <h2>💻 Навички роботи</h2>
+                <p>C++, Excel,Office</p>
+
+                <h2>🎓 Освіта</h2>
+                <p>Студент, спеціальність F3 "Комп'ютерні науки"</p>
+            </div>
+        </div>
     </body>
 </html>
