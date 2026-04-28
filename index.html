@@ -59,6 +59,18 @@
         h1 {
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            
+            background: linear-gradient(270deg, #FF0066, #FF6600, #FFCC00, #00CC66, #0099FF, #6600CC, #FF0099, #33CCFF, #99FF33, #FF3300, #9933FF, #00FFCC);
+            background-size: 1200% 1200%;
+            background-clip: text; 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            animation: gradientShift 20s ease infinite;
+            filter: drop-shadow(0 0 3px rgba(0, 0, 0, 3));
+        }
 
         .profile {
             border-radius: 50%;
@@ -78,12 +90,28 @@
                 <h1>👤 Про себе</h1>
                 <p>Іван,18 років, п'ю живчик та граю в танки і доту</p>
 
+
                 <h2>💻 Навички роботи</h2>
                 <p>C++, Excel,Office</p>
 
                 <h2>🎓 Освіта</h2>
                 <p>Студент, спеціальність F3 "Комп'ютерні науки"</p>
+
+                <h2>🔗 GitHub</h2>
+                <div class="row justify-content-center">
+
+                    
+                    <div class="col-6 col-md-3">
+                        <a href="https://github.com/van6677">Перейти на GitHub</a>
+                    </div>
+
+                   
+                    <div class="col-6 col-md-3">
+                        <a href="https://github.com/PorokhovnichenkoIryna/kn-2026">Перейти на репозиторій</a>
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-    </body>
+</body>
 </html>
